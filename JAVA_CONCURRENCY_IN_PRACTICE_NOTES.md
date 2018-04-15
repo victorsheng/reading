@@ -817,6 +817,7 @@ Hashtable的问题是如线程 1 使用 put 进行添加元素,线程 2 不但�
 
 * 迭代
 * 若没有则添加
+(https://docs.oracle.com/javase/1.5.0/docs/api/java/util/Hashtable.html#method_summary 1.5版本的就没有putIfAbsent的方法)
 
 等等。例如下面的代码
 
